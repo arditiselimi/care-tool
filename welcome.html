@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>E-Books | LogIn</title>
+    <!-- Layout styles -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/bootstrap4-neon-glow.min.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="img/logo.png" />
+</head>
+
+<body>
+    <div id="slideshow">
+        <div>
+          <img src="img/slide.jpg">
+        </div>
+        <div class="slider-img">
+          <img src="img/slide.jpg">
+        </div>
+      </div>
+      
+      <div class="text">
+        <div class="content">
+            <a href="login.html">Login</a> / <a href="register.html">Register</a>
+          </div>
+      </div>
+
+    <script>
+        $("#slideshow > div:gt(0)").hide();
+
+        setInterval(function () {
+            $('#slideshow > div:first')
+                .fadeOut(800)
+                .next()
+                .fadeIn(800)
+                .end()
+                .appendTo('#slideshow');
+        }, 3000);
+    </script>
+
+    <script src="js/login.js"></script>
+</body>
+
+</html>
