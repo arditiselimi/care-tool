@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="css/page.css">
-    <link rel="stylesheet" href="css/page1.css">
+
     <link rel="stylesheet" href="css/favourite.css">
     <link rel="stylesheet" href="css/fontawesome.css">
 </head>
@@ -43,122 +43,163 @@
 
         <div class="banner"></div>
 
-        <div class="image">
-            <img src="img/book.png">
-        </div>
-
         <div class="v-content__wrap">
             <div class="container container--fluid">
-                <div role="list" class="v-list v-sheet v-sheet--tile theme--light v-list--nav">
-                    <div tabindex="-1" role="listitem" class="v-list-item theme--light">
-                        <div class="v-list-item__content"><a href="/procedure/Blutentnahme-kapillar" class=""
-                                color="black">
-                                <div class="v-list-item__title">Blutentnahme kapillar</div>
-                            </a></div>
-                        <div class="v-list-item__action">
-                            <!----><button type="button"
-                                class="v-icon notranslate v-icon--link mdi mdi-star theme--light grey--text text--lighten-1"></button>
+                <div fluid="" class="row row--dense">
+                    <div class="col col-12"><img src="" alt="" class="mainProcedureImage">
+                        <div class="mx-auto v-card v-card--outlined v-sheet theme--light">
+                            <div tabindex="-1" class="v-list-item theme--light">
+                                <div class="v-card__title">Material</div>
+                                <div class="spacer"></div><button onclick="shh()" type="button"
+                                    class="v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"><span
+                                        class="v-btn__content"><i aria-hidden="true"
+                                            class="fa fa-bars"></i></span></button>
+                            </div>
+                            <div id="table" style="display: none;">
+                                <div class="v-card__text">
+                                    <div role="list" class="v-list v-sheet v-sheet--tile theme--light">
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Gerät </p>
+                                        </div>
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Schreibblock </p>
+                                        </div>
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Kugelschreiber </p>
+                                        </div>
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Händedesinfektionsmittel </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light">
-                    <div tabindex="-1" role="listitem" class="v-list-item theme--light">
-                        <div class="v-list-item__content"><a href="/procedure/Temperatur-messen" class="" color="black">
-                                <div class="v-list-item__title">Temperatur messen</div>
-                            </a></div>
-                        <div class="v-list-item__action"><button type="button"
-                                class="v-icon notranslate v-icon--link mdi mdi-star-outline theme--light grey--text text--lighten-1"></button>
-                            <!---->
+                    <div class="col col-12">
+                        <div class="mx-auto v-card v-card--outlined v-sheet theme--light">
+                            <div tabindex="-1" class="v-list-item theme--light">
+                                <div class="v-card__title">Vorbereitung</div>
+                                <div class="spacer"></div><button onclick="shh1()" type="button"
+                                    class="v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"><span
+                                        class="v-btn__content"><i aria-hidden="flase"
+                                            class="fa fa-bars"></i></span></button>
+                            </div>
+                            <div id="table1" style="display: none;">
+                                <div class="v-card__text">
+                                    <div role="list" class="v-list v-sheet v-sheet--tile theme--light">
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Patient informieren</p>
+                                        </div>
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Material vorbereiten </p>
+                                        </div>
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Überprüfen ob noch Schutzkappen für
+                                                Gerät vorhanden sind </p>
+                                        </div>
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Hörgerät ca. 20 Minuten vorher
+                                                entfernen </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light">
-                    <div tabindex="-1" role="listitem" class="v-list-item theme--light">
-                        <div class="v-list-item__content"><a href="/procedure/Medikamente-aufziehen-aus-Glasampulle"
-                                class="" color="black">
-                                <div class="v-list-item__title">Medikamente aufziehen aus Glasampulle</div>
-                            </a></div>
-                        <div class="v-list-item__action"><button type="button"
-                                class="v-icon notranslate v-icon--link mdi mdi-star-outline theme--light grey--text text--lighten-1"></button>
-                            <!---->
+                    <div class="col col-12">
+                        <div class="mx-auto v-card v-card--outlined v-sheet theme--light">
+                            <div tabindex="-1" class="v-list-item theme--light">
+                                <div class="v-card__title">Durchführung</div>
+                                <div class="spacer"></div><button onclick="shh2()" type="button"
+                                    class="v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"><span
+                                        class="v-btn__content"><i aria-hidden="true"
+                                            class="fa fa-bars"></i></span></button>
+                            </div>
+                            <div id="table2" style="display: none;">
+                                <div class="v-card__text">
+                                    <div role="list" class="v-list v-sheet v-sheet--tile theme--light">
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Gerät einschalten </p>
+                                        </div>
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Schutzkappe aufsetzen </p>
+                                        </div>
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Messkopf vorsichtig in Gehörgang
+                                                einführen </p>
+                                        </div>
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Starttaste drücken </p>
+                                        </div>
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Nach dem Ton erscheint Wert auf Display
+                                            </p>
+                                        </div>
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Schutzkappe entsorgen </p>
+                                        </div>
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Wert notieren </p>
+                                        </div>
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Hände desinfizieren </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light">
-                    <div tabindex="-1" role="listitem" class="v-list-item theme--light">
-                        <div class="v-list-item__content"><a href="/procedure/Subkutane-Inketion" class=""
-                                color="black">
-                                <div class="v-list-item__title">Subkutane Injektion</div>
-                            </a></div>
-                        <div class="v-list-item__action"><button type="button"
-                                class="v-icon notranslate v-icon--link mdi mdi-star-outline theme--light grey--text text--lighten-1"></button>
-                            <!---->
+                    <div class="col col-12">
+                        <div class="mx-auto v-card v-card--outlined v-sheet theme--light">
+                            <div tabindex="-1" class="v-list-item theme--light">
+                                <div class="v-card__title">Nachbearbeitung</div>
+                                <div class="spacer"></div><button onclick="shh3()" type="button"
+                                    class="v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"><span
+                                        class="v-btn__content"><i aria-hidden="true"
+                                            class="fa fa-bars"></i></span></button>
+                            </div>
+                            <div id="table3" style="display: none;">
+                                <div class="v-card__text">
+                                    <div role="list" class="v-list v-sheet v-sheet--tile theme--light">
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Wert dokumentieren </p>
+                                        </div>
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Patient korrekt lagern </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light">
-                    <div tabindex="-1" role="listitem" class="v-list-item theme--light">
-                        <div class="v-list-item__content"><a href="/procedure/ohrentropf-verabreichen" class=""
-                                color="black">
-                                <div class="v-list-item__title">Ohrentropfen Verabreichen</div>
-                            </a></div>
-                        <div class="v-list-item__action"><button type="button"
-                                class="v-icon notranslate v-icon--link mdi mdi-star-outline theme--light grey--text text--lighten-1"></button>
-                            <!---->
+                    <div class="col col-12">
+                        <div class="mx-auto v-card v-card--outlined v-sheet theme--light">
+                            <div tabindex="-1" class="v-list-item theme--light">
+                                <div class="v-card__title">Besonderes</div>
+                                <div class="spacer"></div><button onclick="shh4()" type="button"
+                                    class="v-btn v-btn--flat v-btn--icon v-btn--round theme--light v-size--default"><span
+                                        class="v-btn__content"><i aria-hidden="true"
+                                            class="fa fa-bars"></i></span></button>
+                            </div>
+                            <div id="table4" style="display: none;">
+                                <div class="v-card__text">
+                                    <div role="list" class="v-list v-sheet v-sheet--tile theme--light">
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Vorher immer kontrollieren ob Gäret
+                                                funktioniert
+                                            </p>
+                                        </div>
+                                        <div tabindex="-1" role="listitem" class="v-list-item theme--light">
+                                            <p class="subtitle-1 text--primary"> Beim Blutzuckermessen Hände gut
+                                                waschen.
+                                                Essensreste können Werte verfälschen. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light">
-                    <div tabindex="-1" role="listitem" class="v-list-item theme--light">
-                        <div class="v-list-item__content"><a href="/procedure/Infusion-richten-und-verabreichen"
-                                class="" color="black">
-                                <div class="v-list-item__title">Infusion richten und verabreichen</div>
-                            </a></div>
-                        <div class="v-list-item__action"><button type="button"
-                                class="v-icon notranslate v-icon--link mdi mdi-star-outline theme--light grey--text text--lighten-1"></button>
-                            <!---->
-                        </div>
-                    </div>
-                    <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light">
-                    <div tabindex="-1" role="listitem" class="v-list-item theme--light">
-                        <div class="v-list-item__content"><a href="/procedure/Blutentnahme-venoes" class=""
-                                color="black">
-                                <div class="v-list-item__title">Blutentnahme venös</div>
-                            </a></div>
-                        <div class="v-list-item__action"><button type="button"
-                                class="v-icon notranslate v-icon--link mdi mdi-star-outline theme--light grey--text text--lighten-1"></button>
-                            <!---->
-                        </div>
-                    </div>
-                    <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light">
-                    <div tabindex="-1" role="listitem" class="v-list-item theme--light">
-                        <div class="v-list-item__content"><a href="/procedure/Dauer-katheter-Beutel-wechseln" class=""
-                                color="black">
-                                <div class="v-list-item__title">Dauerkatheter Beutel wechseln</div>
-                            </a></div>
-                        <div class="v-list-item__action"><button type="button"
-                                class="v-icon notranslate v-icon--link mdi mdi-star-outline theme--light grey--text text--lighten-1"></button>
-                            <!---->
-                        </div>
-                    </div>
-                    <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light">
-                    <div tabindex="-1" role="listitem" class="v-list-item theme--light">
-                        <div class="v-list-item__content"><a href="/procedure/Augentropfen" class="" color="black">
-                                <div class="v-list-item__title">Augentropfen</div>
-                            </a></div>
-                        <div class="v-list-item__action"><button type="button"
-                                class="v-icon notranslate v-icon--link mdi mdi-star-outline theme--light grey--text text--lighten-1"></button>
-                            <!---->
-                        </div>
-                    </div>
-                    <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light">
-                    <div tabindex="-1" role="listitem" class="v-list-item theme--light">
-                        <div class="v-list-item__content"><a href="/procedure/Blutdruck-messen" class="" color="black">
-                                <div class="v-list-item__title">Blutdruck messen</div>
-                            </a></div>
-                        <div class="v-list-item__action"><button type="button"
-                                class="v-icon notranslate v-icon--link mdi mdi-star-outline theme--light grey--text text--lighten-1"></button>
-                            <!---->
-                        </div>
-                    </div>
-                    <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light">
                 </div>
-                <!---->
             </div>
         </div>
 
@@ -219,14 +260,7 @@
         </script>
 
 
-        <div class="center">
-            <div class="video-container">
-                <iframe width="1152" height="648" src="https://www.youtube.com/embed/e58lLJ-2gBI"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-        </div>
+        
 
         <div class="favourite">
             <a id="bookmark-this" href="#" title="Bookmark This Page">Bookmark This Page</a>

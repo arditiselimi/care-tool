@@ -40079,11 +40079,11 @@ html.overflow-y-hidden {
 }
 
 .theme--light.v-card .v-card__subtitle, .theme--light.v-card>.v-card__text {
-    color: rgba(0, 0, 0, .6)
+    color: rgba(0, 0, 0, 0.6)
 }
 
 .theme--light.v-card.v-card--outlined {
-    border: thin solid rgba(0, 0, 0, .12);
+    border: thin solid rgba(0, 68, 255, 0.12);
 }
 
 .theme--dark.v-card {
@@ -40483,7 +40483,7 @@ tbody::after {
 
 .navbar .logo a {
     color: #5b9dff;
-    font-size: 30px;
+    font-size: 33px;
     font-weight: 600;
     text-decoration: none;
 }
@@ -40498,8 +40498,8 @@ tbody::after {
 
 .menu-list li a {
     color: #5b9dff;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 600;
     margin-left: 25px;
     text-decoration: none;
     transition: all 0.3s ease;
